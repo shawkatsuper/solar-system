@@ -1,0 +1,228 @@
+
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    cursor: url('../image/mouse.png'), auto;
+}
+.background{
+    background-color:#010101;
+    height: 100vh; 
+    
+
+}
+ .heading-text{
+    color: #05ecb3e0;
+    text-align: center;
+    padding: 25px 0px 0px;
+    text-transform: uppercase;
+
+}
+
+/* ######### Sun CSS #########  */
+.sun{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    animation: sun 5s infinite linear;
+    position: relative;
+    top: 50%;
+    left: 50%;
+}
+.sun .center-text{
+    position: absolute;
+    top: 23px;
+    left: 20px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+@keyframes sun {
+    0%{
+        background: yellow;
+        box-shadow: 0 0 60px orange, 0 0 0 black inset;
+    }
+    50%{
+        background: orangered;
+        box-shadow: 0 0 0 orange, 0 0 0 black inset;
+    }
+    
+    100%{
+        background: yellow;
+        box-shadow: 0 0 60 orange, 0 0 0 black inset;
+    }
+}
+
+/* ######### Sun CSS END #########  */
+
+/* ######### Mercury CSS Start #########  */
+
+.mercury{
+    width: 125px;
+    height: 125px;
+    border: 2px solid #444343;
+    border-radius: 50%;
+    position: absolute;
+    top: -27px;
+    right: -27px;
+    animation: mercury 5s infinite linear;
+}
+.mercury img{
+    position: absolute;
+    top:13px;
+}
+.mercury p{
+    color: #f05517;
+    font-weight: bold;
+    font-size: 14px;
+    position: absolute;
+    z-index: 1;
+    margin: 0px;
+    transform: rotate(77deg);
+    left: 15px;
+    top: 0px;
+}
+
+/* ######### Venus CSS Start #########  */
+
+.venus{
+    width: 200px;
+    height: 200px;
+    border: 2px solid #444343;
+    border-radius: 50%;
+    position: absolute;
+    top: -65px;
+    right: -65px;
+    animation: mercury 8s infinite linear;
+}
+.venus img{
+    position: absolute;
+    top:30px;
+}
+@keyframes mercury{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+} 
+
+/* ######### Venus CSS Start #########  */
+.earth{
+    width: 280px;
+    height: 280px;
+    border: 2px solid #444343;
+    border-radius: 50%;
+    position: absolute;
+    top: -105px;
+    right: -105px;
+    animation: mercury 11s infinite linear;
+}
+.earth img{
+    position: absolute;
+    top:50px;
+}
+/* ######### Mars CSS Start #########  */
+.mars {
+    width: 360px;
+    height: 360px;
+    border: 2px solid #444343;
+    border-radius: 50%;
+    position: absolute;
+    top: -145px;
+    right: -145px;
+    animation: mercury 14s infinite linear;
+}
+.mars img{
+    position: absolute;
+    top:78px;
+}
+/* ######### Jupiter CSS Start #########  */
+.jupiter {
+    width: 450px;
+    height: 450px;
+    border: 2px solid #444343;
+    border-radius: 50%;
+    position: absolute;
+    top: -190px;
+    right: -190px;
+    animation: mercury 17s infinite linear;
+}
+
+.jupiter img{
+    position: absolute;
+    top:90px;
+}
+
+/* ######### Saturn CSS Start #########  */
+.saturn {
+    width: 530px;
+    height: 530px;
+    border: 2px solid #444343;
+    border-radius: 50%;
+    position: absolute;
+    top: -230px;
+    right: -230px;
+    animation: mercury 20s infinite linear;
+}
+
+.saturn img{
+    position: absolute;
+    top:115px;
+}
+
+/* ######### Urenas CSS Start #########  */
+.urenus {
+    width: 620px;
+    height: 620px;
+    border: 2px solid #444343;
+    border-radius: 50%;
+    position: absolute;
+    top: -275px;
+    right: -275px;
+    animation: mercury 23s infinite linear;
+}
+
+.urenus img{
+    position: absolute;
+    top:140px;
+}
+
+/* ######### Neptune CSS Start #########  */
+.neptune {
+    width: 720px;
+    height: 720px;
+    border: 2px solid #444343;
+    border-radius: 50%;
+    position: absolute;
+    top: -325px;
+    right: -325px;
+    animation: mercury 25s infinite linear;
+}
+
+.neptune img{
+    position: absolute;
+    top:205px;
+}
+
+/* ######### Pluto CSS Start #########  */
+.pluto {
+    width: 800px;
+    height: 800px;
+    border: 2px solid #444343;
+    border-radius: 50%;
+    position: absolute;
+    top: -365px;
+    right: -365px;
+    animation: mercury 20s infinite linear;
+}
+
+.pluto img{
+    position: absolute;
+    top:270px;
+}
